@@ -1,0 +1,58 @@
+/* Global */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.295);
+}
+
+/* Hero Section */
+h1 {
+  color: #fdb50d;
+}
+
+button.btn {
+  transition: 0.3s;
+}
+
+button.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Skill Card */
+.border {
+  border-radius: 10px !important;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.border:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Skill Title */
+h5 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* Responsive tambahan */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
